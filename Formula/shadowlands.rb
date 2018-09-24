@@ -11,6 +11,7 @@ class Shadowlands < Formula
 
   def install
     bin.install "shadowlands"
+    system "shadowlands --install"
   end
 
 end
