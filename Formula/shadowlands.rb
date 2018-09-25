@@ -4,8 +4,8 @@
 class Shadowlands < Formula
   desc "Shadowlands public Ethereum terminal"
   homepage "https://github.com/kayagoban/shadowlands"
-  url "https://github.com/kayagoban/shadowlands/archive/v0.07a.tar.gz"
-  sha256 "16d5f2a638157c1b1412b9a51df4bcdcb85651c4215f64ea6d77757847b9e7f2"
+  url "https://github.com/kayagoban/shadowlands/archive/v0.08a.tar.gz"
+  sha256 "88f056ff105bbdb7da173082f3f5072b587f0037c6a1de65f36eb2ed24673442"
 
   depends_on "python3" => :recommended
 
