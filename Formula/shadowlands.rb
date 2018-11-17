@@ -7,6 +7,8 @@ class Shadowlands < Formula
   url 'https://github.com/kayagoban/shadowlands/archive/v0.12a.tar.gz'
   sha256 "b89ef01e420d4650f65a3e5596b5351d4339e44c1804c713d4d508e2bfc1e8f5"
 
+  depends_on "zbar"
+  depends_on "opencv"
   depends_on "python3" => :recommended
 
   def install
