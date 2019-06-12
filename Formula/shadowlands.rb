@@ -12,14 +12,12 @@ class Shadowlands < Formula
   #depends_on "opencv"
   depends_on "python3" => :recommended
 
-
-
   #Dir["*"]
   
 
   def install
     lib.install Dir["*"]
-    bin.install "output/scripts/shadowlands"
+    #bin.install "output/scripts/shadowlands"
   end
 
 end
