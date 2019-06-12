@@ -12,7 +12,7 @@ class Shadowlands < Formula
   depends_on "python3" => :recommended
 
   def install
-    opt_previx.install Dir["output/*"]
+    opt_prefix.install Dir["output/*"]
     bin.install "scripts/shadowlands"
   end
 
