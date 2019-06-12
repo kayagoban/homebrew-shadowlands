@@ -17,7 +17,7 @@ class Shadowlands < Formula
   
 
   def install
-    opt_prefix.install "."    
+    opt_prefix.install Dir["*"]
     bin.install "scripts/shadowlands"
   end
 
