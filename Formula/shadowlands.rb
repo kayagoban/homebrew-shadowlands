@@ -7,19 +7,12 @@ class Shadowlands < Formula
   desc "Shadowlands public Ethereum terminal"
   homepage "https://github.com/kayagoban/shadowlands"
   url 'https://github.com/kayagoban/shadowlands/archive/1.0.3.tar.gz'
-  sha256 '6abedc18040485c88b99c01eacae96296efc1d552705030e91843406bb95e73f'
-  version "1.0.12"
+  sha256 '87b1578dabdcc41aa8d3ef9f585f0490acd02130797f6c802a794f3897f7d521'
+  version "1.0.4"
 
-  #depends_on "zbar"
-  #depends_on "opencv"
   depends_on "python3" => :recommended
 
-  #Dir["*"]
-  
-
   def install
-    puts Dir["*"]
-    puts Dir["scripts/*"]
     bin.install Dir["scripts/*"]
     lib.install Dir["*"]
   end
