@@ -6,7 +6,7 @@ class Shadowlands < Formula
   homepage "https://github.com/kayagoban/shadowlands"
   url 'https://github.com/kayagoban/shadowlands/archive/1.0.3.tar.gz'
   sha256 '6abedc18040485c88b99c01eacae96296efc1d552705030e91843406bb95e73f'
-  version "1.0.3"
+  version "1.0.8"
 
   #depends_on "zbar"
   #depends_on "opencv"
